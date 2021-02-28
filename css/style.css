@@ -81,7 +81,7 @@ body{
     }
     .img-principal img{
         width: 100%;
-        height: 700px;
+        height: 600px;
     }
 
     .flex-container{
@@ -147,14 +147,14 @@ body{
 
     .uc-left{
         width: 25%;
-        height: 700px;
+        height: 650px;
         border: 1px solid black;
         border-radius: 1em;
     }
 
     .uc-left img{
         width: 100%;
-        height: 400px;
+        height: 330px;
         border-radius: 1em;
     }
 
@@ -162,18 +162,19 @@ body{
         text-align: center;
         margin: 15px 10px 0 10px;
         text-shadow: 5px 5px 15px black;
+        font-style: italic;
     }
 
     .uc-center{
         width: 25%;
-        height: 700px;
+        height: 650px;
         border: 1px solid black;
         border-radius: 1em;
     }
 
     .uc-center img{
         width: 100%;
-        height: 400px;
+        height: 330px;
         border-radius: 1em;
     }
 
@@ -181,19 +182,20 @@ body{
         text-align: center;
         margin: 15px 10px 0 10px;
         text-shadow: 5px 5px 15px black;
+        font-style: italic;
     }
 
 
     .uc-right{
         width: 25%;
-        height: 700px;
+        height: 650px;
         border: 1px solid black;
         border-radius: 1em;
     }
 
     .uc-right img{
         width: 100%;
-        height: 400px;
+        height: 330px;
         border-radius: 1em;
     }
 
@@ -201,6 +203,7 @@ body{
         text-align: center;
         margin: 15px 10px 0 10px;
         text-shadow: 5px 5px 15px black;
+        font-style: italic;
     }
 
 
