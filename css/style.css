@@ -316,12 +316,12 @@
 
 
     .footer h2{
+        width: 100%;
         background-color: black;
         color: white;
         text-align: center;
-        border-radius: 1em;
-        margin: 1em;
-        padding: .5em;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
         font-family: monospace;
     }
 }
