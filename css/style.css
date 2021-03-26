@@ -391,7 +391,6 @@
         height: 600px;
     }
 
-
     .dos{
         display: flex;
         flex-flow: row nowrap;
@@ -455,129 +454,180 @@
         justify-content: space-around;
         flex-flow: row wrap;
         width: 100%;
-        height: 410px;
+        height: 350px;
         margin-top: 10px;
         background-color:dodgerblue;
     }
 
     .uc-left{
         width: 25%;
-        height: 350px;
+        height: 310px;
         border: 1px solid black;
         border-radius: 1em;
         background-color: green;
         box-shadow:5px 5px 15px black;
-        margin-top: 15px;
     }
 
     .uc-left:hover{
-        opacity: 50%;
+        opacity: 100%;
+        width: 40%;
+        height: 310px;
+        font-family: initial;
+        padding: 0;
     }
 
     .uc-left img{
         width: 100%;
-        height: 230px;
+        height: 240px;
         border-radius: 1em;
         padding: 10px 10px 0 10px;
     }
 
-    .uc-left h2{
+    .uc-left img:hover{
+        width: 100%;
+        height: 240px;
+        border-radius: 1em;
+        padding: 10px 10px 0 10px;
+    }
+
+    .uc-left p{
         text-align: center;
-        margin: 35px 10px 0 10px;
         text-shadow: 5px 5px 15px black;
         font-style: italic;
         font-size: 1.4em;
         opacity: 70%;
+    }
+
+    .uc-left p:hover{
+        text-align: center;
+        text-shadow: 5px 5px 15px black;
+        font-style: italic;
+        opacity: 70%;
+        padding: 0;
     }
 
     .uc-left a{
         color: white;
+        padding: 0;
     }
 
     .uc-center{
         width: 25%;
-        height: 350px;
+        height: 310px;
         border: 1px solid black;
         border-radius: 1em;
         background-color: red;
         box-shadow:5px 5px 15px black;
-        margin-top: 15px;
     }
 
     .uc-center:hover{
-        opacity: 50%;
+        opacity: 100%;
+        width: 40%;
+        height: 310px;
+        font-family: initial;
+        padding: 0;
     }
 
     .uc-center img{
         width: 100%;
-        height: 230px;
+        height: 240px;
         border-radius: 1em;
         padding: 10px 10px 0 10px;
     }
 
-    .uc-center h2{
+    .uc-center img:hover{
+        width: 100%;
+        height: 240px;
+        padding: 10px 10px 0 10px;
+    }
+
+    .uc-center p{
         text-align: center;
-        margin: 35px 10px 0 10px;
         text-shadow: 5px 5px 15px black;
         font-style: italic;
         font-size: 1.4em;
         opacity: 70%;
+    }
+
+    .uc-center p:hover{
+        text-align: center;
+        text-shadow: 5px 5px 15px black;
+        font-style: italic;
+        opacity: 70%;
+        padding: 0;
     }
 
     .uc-center a{
         color: white;
+        padding: 0;
     }
+
 
     .uc-right{
         width: 25%;
-        height: 350px;
+        height: 310px;
         border: 1px solid black;
         border-radius: 1em;
-        background-color:darkblue;
+        background-color: blue;
         box-shadow:5px 5px 15px black;
-        margin-top: 15px;
     }
 
     .uc-right:hover{
-        opacity: 50%;;
+        opacity: 100%;
+        width: 40%;
+        height: 310px;
+        font-family: initial;
+        padding: 0;
     }
 
     .uc-right img{
         width: 100%;
-        height: 230px;
+        height: 240px;
         border-radius: 1em;
         padding: 10px 10px 0 10px;
     }
 
-    .uc-right h2{
+    .uc-right img:hover{
+        width: 100%;
+        height: 240px;
+        border-radius: 1em;
+        padding: 10px 10px 0 10px;
+    }
+
+    .uc-right p{
         text-align: center;
-        margin: 35px 10px 0 10px;
         text-shadow: 5px 5px 15px black;
         font-style: italic;
         font-size: 1.4em;
         opacity: 70%;
     }
 
-    .uc-right a{
-        color: white;
+    .uc-right p:hover{
+        text-align: center;
+        text-shadow: 5px 5px 15px black;
+        font-style: italic;
+        opacity: 70%;
+        padding: 0;
     }
 
+    .uc-right a{
+        color: white;
+        padding: 0;
+    }
 
     .footer h2{
         background-color: black;
         color: white;
         text-align: center;
-        margin: 1em;
-        padding: .5em;
-        font-family: monospace;
         width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        font-size: 1em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }
-
-
-
-
-
 
 
 @media screen and (min-width:1024px){
@@ -732,7 +782,7 @@
     .uc-left img:hover{
         width: 100%;
         height: 340px;
-        border-radius: 1em;        /* padding: 10px 10px 0 10px; */
+        border-radius: 1em;
     }
 
     .uc-left p{
